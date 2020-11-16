@@ -1,0 +1,130 @@
+/*!
+Theme Name: company
+Theme URI: http://it-kothon.com/
+Author: sajid imon
+Author URI: http://techmarter.com
+Description: company is a multi-purpose wordpress theme. You can make beautifull blog or megazine, business, agency or corporate website by using free company theme.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+Text Domain: company
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+License: GNU General Public License v2 or later
+License URI: LICENSE
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.justify-content-center.current {
+	background: #1ED33C;
+	border-radius: 5px;
+	border: 1px solid #1ED33C;
+	color: #fff !important;
+}
+
+.services .icon-box .icon i img {
+	height: 50px;
+	width: 50px;
+}
+
+
+.tagcloud a {
+	color: #1E1E1E;
+	font-size: 15px !important;
+	border: 1px solid #B4B1B0;
+	padding: 5px 10px;
+	overflow: hidden;
+	display: inline-block;
+	margin: 2px 3px;
+	border-radius: 3px;
+  }
+
+  .widget ul {
+	margin: 0;
+	padding: 0;
+}
+
+.widget ul li {
+	list-style: none;
+}
+
+.widget ul li a {
+	color: #333;
+}
+
+#footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+#footer ul li{
+	list-style: none;
+}
+#footer ul li a{
+	color:#fff ;
+}
+
+section {
+	padding: 20px 0 !important;
+}
+
+
+#commentform textarea {
+	border-radius: 0;
+	width: 100%;
+	border: 1px solid #A4A4A4;
+}
+
+
+#commentform input {
+	border-radius: 0px;
+	width: 100%;
+	border: 1px solid #A4A4A4;
+}
+
+.form-submit input {
+	color: #fff;
+	background: #26C841;
+	border: 1px solid #26C841;
+	border-radius: 4px;
+	overflow: hidden;
+	padding: 5px 10px;
+	width: 20% !important;
+}
+
+.comment-form-cookies-consent input {
+	flex-basis: 4%;
+	margin-top: -5px !important;
+}
+
+.comment-form-cookies-consent {
+	display: flex;
+}
+
+.fn a {
+	color: #333 !important;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-style: normal;
+}
+
+.comment-meta a {
+	color: #333;
+	margin: 10px 0;
+	display: block;
+}
+
+.post-comments li {
+	list-style: none;
+	text-align: left;
+}
+
+.post-comments p {
+	margin-left: 0px !important;
+	font-size: 20px;
+	text-transform: capitalize;
+}
